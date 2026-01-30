@@ -36,7 +36,7 @@ public class LeaveRequest {
 
     @Column(length = 200)
     private String comments;
-
+// comment added
     @Column(length = 255)
     private String reason;
 

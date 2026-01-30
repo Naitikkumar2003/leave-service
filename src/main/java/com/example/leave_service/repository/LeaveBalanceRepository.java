@@ -12,3 +12,4 @@ public interface LeaveBalanceRepository extends JpaRepository<LeaveBalance, Long
 
     Page<LeaveBalance> findByRemainingLeavesLessThan(int i, Pageable pageable);
 }
+
